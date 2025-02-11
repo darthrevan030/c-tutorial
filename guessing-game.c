@@ -9,7 +9,8 @@ int main(){
     while(guess != secretNumber){
         printf("Enter your guess: ");
         scanf("%d", &guess);
-
     }
+    printf("You win!");
+    
     return 0;
 }
